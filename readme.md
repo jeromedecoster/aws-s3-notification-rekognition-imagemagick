@@ -2,6 +2,8 @@
 
 Detect **Bird**, **Cat** and **Dog** in images with **Rekognition** then draw the bounding box with **ImageMagick**.
 
+![architecture](architecture.png)
+
 Photo by [Zdeněk Macháček](https://unsplash.com/@zmachacek) on [Unsplash](https://unsplash.com/photos/eqXiLNfZDc0)
 
 ![bird1](uploads/bird1.jpg)
