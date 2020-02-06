@@ -1,0 +1,130 @@
+{
+  "Labels": [
+    {
+      "Name": "Animal",
+      "Confidence": 99.92462921142578,
+      "Instances": [],
+      "Parents": []
+    },
+    {
+      "Name": "Bird",
+      "Confidence": 99.92462921142578,
+      "Instances": [
+        {
+          "BoundingBox": {
+            "Width": 0.3826746642589569,
+            "Height": 0.6784400939941406,
+            "Left": 0.3487273156642914,
+            "Top": 0.1914755254983902
+          },
+          "Confidence": 99.92462921142578
+        }
+      ],
+      "Parents": [
+        {
+          "Name": "Animal"
+        }
+      ]
+    },
+    {
+      "Name": "Toucan",
+      "Confidence": 92.9628677368164,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Bird"
+        },
+        {
+          "Name": "Animal"
+        }
+      ]
+    },
+    {
+      "Name": "Vegetation",
+      "Confidence": 58.4556999206543,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Plant"
+        }
+      ]
+    },
+    {
+      "Name": "Land",
+      "Confidence": 58.4556999206543,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Outdoors"
+        },
+        {
+          "Name": "Nature"
+        }
+      ]
+    },
+    {
+      "Name": "Outdoors",
+      "Confidence": 58.4556999206543,
+      "Instances": [],
+      "Parents": []
+    },
+    {
+      "Name": "Plant",
+      "Confidence": 58.4556999206543,
+      "Instances": [],
+      "Parents": []
+    },
+    {
+      "Name": "Nature",
+      "Confidence": 58.4556999206543,
+      "Instances": [],
+      "Parents": []
+    },
+    {
+      "Name": "Tree",
+      "Confidence": 58.4556999206543,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Plant"
+        }
+      ]
+    },
+    {
+      "Name": "Rainforest",
+      "Confidence": 58.4556999206543,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Vegetation"
+        },
+        {
+          "Name": "Outdoors"
+        },
+        {
+          "Name": "Tree"
+        },
+        {
+          "Name": "Plant"
+        },
+        {
+          "Name": "Land"
+        },
+        {
+          "Name": "Nature"
+        }
+      ]
+    }
+  ],
+  "Key": "uploads/bird2.jpg",
+  "Name": "Bird",
+  "Instance": {
+    "BoundingBox": {
+      "Width": 0.3826746642589569,
+      "Height": 0.6784400939941406,
+      "Left": 0.3487273156642914,
+      "Top": 0.1914755254983902
+    },
+    "Confidence": 99.92462921142578
+  }
+}

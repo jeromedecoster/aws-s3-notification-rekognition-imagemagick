@@ -1,0 +1,105 @@
+{
+  "Labels": [
+    {
+      "Name": "Mammal",
+      "Confidence": 98.99177551269531,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Animal"
+        }
+      ]
+    },
+    {
+      "Name": "Pet",
+      "Confidence": 98.99177551269531,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Animal"
+        }
+      ]
+    },
+    {
+      "Name": "Animal",
+      "Confidence": 98.99177551269531,
+      "Instances": [],
+      "Parents": []
+    },
+    {
+      "Name": "Manx",
+      "Confidence": 98.99177551269531,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Mammal"
+        },
+        {
+          "Name": "Animal"
+        },
+        {
+          "Name": "Pet"
+        },
+        {
+          "Name": "Cat"
+        }
+      ]
+    },
+    {
+      "Name": "Cat",
+      "Confidence": 98.99177551269531,
+      "Instances": [
+        {
+          "BoundingBox": {
+            "Width": 0.633676290512085,
+            "Height": 0.6928848624229431,
+            "Left": 0.35083600878715515,
+            "Top": 0.298642635345459
+          },
+          "Confidence": 98.40335083007812
+        }
+      ],
+      "Parents": [
+        {
+          "Name": "Mammal"
+        },
+        {
+          "Name": "Animal"
+        },
+        {
+          "Name": "Pet"
+        }
+      ]
+    },
+    {
+      "Name": "Abyssinian",
+      "Confidence": 79.67252349853516,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Mammal"
+        },
+        {
+          "Name": "Animal"
+        },
+        {
+          "Name": "Pet"
+        },
+        {
+          "Name": "Cat"
+        }
+      ]
+    }
+  ],
+  "Key": "uploads/cat1.jpg",
+  "Name": "Cat",
+  "Instance": {
+    "BoundingBox": {
+      "Width": 0.633676290512085,
+      "Height": 0.6928848624229431,
+      "Left": 0.35083600878715515,
+      "Top": 0.298642635345459
+    },
+    "Confidence": 98.40335083007812
+  }
+}

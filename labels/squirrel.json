@@ -1,0 +1,50 @@
+{
+  "Labels": [
+    {
+      "Name": "Animal",
+      "Confidence": 89.44416046142578,
+      "Instances": [],
+      "Parents": []
+    },
+    {
+      "Name": "Mammal",
+      "Confidence": 89.44416046142578,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Animal"
+        }
+      ]
+    },
+    {
+      "Name": "Rodent",
+      "Confidence": 89.44416046142578,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Animal"
+        },
+        {
+          "Name": "Mammal"
+        }
+      ]
+    },
+    {
+      "Name": "Squirrel",
+      "Confidence": 89.44416046142578,
+      "Instances": [],
+      "Parents": [
+        {
+          "Name": "Rodent"
+        },
+        {
+          "Name": "Mammal"
+        },
+        {
+          "Name": "Animal"
+        }
+      ]
+    }
+  ],
+  "Key": "uploads/squirrel.jpg"
+}

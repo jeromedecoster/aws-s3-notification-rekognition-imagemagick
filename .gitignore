@@ -1,0 +1,14 @@
+.directory
+node_modules
+npm-debug.log
+converted/*.jpg
+invokes/label/*.json
+invokes/upload/*.json
+*.zip
+payloads/labels/*.json
+payloads/uploads/*.json
+*.terraform
+*.plan
+*.tfstate
+*.tfstate.backup
+settings.sh
